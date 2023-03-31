@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body{
+            background: rgb(242, 240, 240);
+            font-family: 'Poppins', sans-serif;
+        }
+        header{
+            font-size: 17px;
+            font-weight: bold;
+        }
+        .finwidth{
+            width: 580px;
+        }
+        .width90{
+            height: 70vh;
+        }
+        button{
+            background: linear-gradient(90deg, rgb(221, 159, 34) 0%, rgb(254, 1, 39) 0%, rgb(95, 222, 248) 100%);
+        }
+    </style>
+</head>
+<body>
+    <!-- headaer -->
+    <header class="w-full h-20 bg-white top-0 flex justify-between items-center fixed">
+            <a class="ml-12 text-2xl" href="">Arjun.stha</a>
+            <div class="flex gap-5 mr-14">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+    </header>
+    <!-- /header -->
+
+    <div id="home" class=" w-full h-screen pt-48 grid grid-cols-2 ">
+        <div class="w-full px-7 px-40 flex flex-col gap-6">
+            <h1 class="finwidth text-6xl font-black tracking-wider">Front & Back End Developer</h1>
+            <h2 class="finwidth text-xl text-gray-600">Hi, i'm Arjun Shrestha. A passionate Front-End & Back-End Developer based in Nawalpur, Nepal.</h2>
+            <a class="finwidth text-4xl flex gap-4" href="">
+                <button class="w-56 h-12 flex gap-4 text-xl bg-white font-bold p-3 pl-5 rounded-3xl shadow-md"><i class="ri-download-fill"></i>Download CV</button>
+                <i class="ri-linkedin-box-fill"></i></i><i class="ri-github-fill"></i></a>
+        </div>
+        <div class="">
+            <img class="w-72 h-96 mx-48 -mt-16 rounded-tr-3xl rounded-bl-3xl" src="img/a.jpg" alt="">
+        </div>
+    </div>
+
+
+        <!-- about -->
+        <div id="about" class="bg-white w-full mt-1 flex gap-24">
+            <a class="pl-36 flex gap-8 text-base font-bold" href="">Tech Stack<span href="">|</span></a>
+            <div class="flex flex-row -mt-5 gap-5 ">
+                <img class="w-16 h-16 bg-white rounded-full shadow-md" src="img/html.jpeg" alt="">
+                <img class="w-16 h-16 bg-white rounded-full shadow-md" src="img/css.png" alt="">
+                <img class="w-16 h-16 bg-white rounded-full shadow-md" src="img/js.png" alt="">
+                <img class="w-16 h-16 bg-white rounded-full shadow-md" src="img/react.png" alt="">
+                <img class="w-16 h-16 bg-white rounded-full shadow-md" src="img/tailwind.png" alt="">
+            </div>
+        </div>
+
+        
+
+    <div class="h-screen pt-10 bg-white">
+        <div class="w-full h-96 grid grid-cols-2 pt-10">
+            <div class="pl-36 pr-36">
+                <img src="#" alt="">
+            </div>
+            <div class="pr-40 gap-10">
+                <a class="text-lg font-bold text-blue-600" href="">ABOUT ME</a>
+                <h1 class="mt-4 text-2xl font-black tracking-wider">A dedicated Front-end Developer
+                    based in Nawalpur, Nepal 📍</h1>
+                <h2 class="mt-8 text-base text-gray-600">As a Junior Front-End Developer, I possess 
+                    an impressive arsenal of skills in HTML, CSS, JavaScript, React, 
+                    Tailwind, and SCSS. I excel in designing and maintaining responsive
+                     websites that offer a smooth user experience. My expertise lies in 
+                     crafting dynamic, engaging interfaces through writing clean and optimized 
+                     code and utilizing cutting-edge development tools and techniques. I am also a team 
+                     player who thrives in collaborating with cross-functional teams to produce 
+                     outstanding web applications.
+                </h2>
+            </div>
+        </div>
+    </div>
+    <!-- /about -->
+
+
+
+
+    <!-- content -->
+    <div id="projects" class="w-full h-screen mt-8 bg-transparent">
+        <div class="pt-32 pl-36">
+            <a class="text-lg font-bold text-blue-600" href="">PORTFOLIO</a>
+            <h1 class="mt-4 text-2xl font-black tracking-wide">Each project is a unique piece of development🧩 <br>
+                based in Nawalpur, Nepal 📍</h1>
+        </div>
+
+
+        <div class="h-96 m-36 mt-14 bg-white rounded-2xl flex">
+            <div class="w-2/3 p-6 rounded-2xl">
+                <div class=" rounded-2xl h-full bg-white shadow-md"></div>
+            </div>
+            <div class="w-1/2 text-center rounded-2xl pl-12 pr-12 pt-14">
+                <h2 class="text-xl font-bold">TITLE</h2>
+                <p class="mt-4 text-lg font-extralight text-gray-600">Lorem ipsum dolor, sit amet consectetur 
+                    adipisicing elit. Provident quisquam quidem consequatur quasi, officiis tenetur inventore 
+                    architecto ducimus praesentium reprehenderit, fugit ipsa iusto, natus iure. Provident 
+                    dolor eaque voluptas in?
+                </p>
+            </div>
+        </div>
+    </div>
+    
+
+
+    
+    <div class="h-96 m-36 mt-32 bg-white rounded-2xl flex">
+        <div class="w-1/2 text-center rounded-2xl pl-12 pr-12 pt-14">
+            <h2 class="text-xl font-bold">TITLE</h2>
+            <p class="mt-4 text-lg font-extralight text-gray-600">Lorem ipsum dolor, sit amet consectetur 
+                adipisicing elit. Provident quisquam quidem consequatur quasi, officiis tenetur inventore 
+                architecto ducimus praesentium reprehenderit, fugit ipsa iusto, natus iure. Provident 
+                dolor eaque voluptas in?
+            </p>
+        </div>
+        <div class="w-2/3 p-6 rounded-2xl">
+            <div class=" rounded-2xl h-full bg-white shadow-md"></div>
+        </div>
+    </div>
+
+
+    
+    <div class="h-96 m-36 -mt-24 bg-white rounded-2xl flex">
+        <div class="w-2/3 p-6 rounded-2xl">
+            <div class=" rounded-2xl h-full bg-white shadow-md"></div>
+        </div>
+        <div class="w-1/2 text-center rounded-2xl pl-12 pr-12 pt-14">
+            <h2 class="text-xl font-bold">TITLE</h2>
+            <p class="mt-4 text-lg font-extralight text-gray-600">Lorem ipsum dolor, sit amet consectetur 
+                adipisicing elit. Provident quisquam quidem consequatur quasi, officiis tenetur inventore 
+                architecto ducimus praesentium reprehenderit, fugit ipsa iusto, natus iure. Provident 
+                dolor eaque voluptas in?
+            </p>
+        </div>
+    </div>
+
+    
+
+        
+    <div class="h-96 m-36 -mt-24 bg-white rounded-2xl flex">
+        <div class="w-1/2 text-center rounded-2xl pl-12 pr-12 pt-14">
+            <h2 class="text-xl font-bold">TITLE</h2>
+            <p class="mt-4 text-lg font-extralight text-gray-600">Lorem ipsum dolor, sit amet consectetur 
+                adipisicing elit. Provident quisquam quidem consequatur quasi, officiis tenetur inventore 
+                architecto ducimus praesentium reprehenderit, fugit ipsa iusto, natus iure. Provident 
+                dolor eaque voluptas in?
+            </p>
+        </div>
+        <div class="w-2/3 p-6 rounded-2xl">
+            <div class=" rounded-2xl h-full bg-white shadow-md"></div>
+        </div>
+    </div>
+
+     <!-- /content -->
+
+
+    <!-- contact -->
+<div id="contact" class="width90 ">
+    <div class="h-full -mt-3 pl-36 bg-white pt-32">
+    <h3 class="text-blue-600 font-bold">CONTACT</h3>
+    <h2 class="text-2xl font-black mt-5">Don't be shy! Contact Me Here! 👇</h2>
+    <div class="grid grid-cols-2 mt-16">
+        <div class="flex flex-grow gap-24">
+            <div class="flex gap-4">
+                <img class="w-14 h-14 rounded-full" src="img/map.png" alt="">
+                <a href="">
+                    <h3 class="font-black">Location</h3>
+                    <p class="w-52 text-gray-500">Nawalpur, Nepal</p>
+                </a>
+            </div>
+            <div class="flex flex-grow gap-20">
+                <div class="flex gap-3">
+                    <img class="w-14 h-14 rounded-full" src="img/b.jpg" alt="">
+                    <a href="">
+                        <h3 class="font-black">Mail</h3>
+                        <p class="w-52 text-gray-500">arjun.stha@gmail.com</p>
+                    </a>
+                </div>
+        </div>
+        <div class="">
+
+        </div>
+    </div>
+    </div>
+    </div>
+</div>
+    <!-- /contact -->
+
+
+
+
+    <div class="w-full h-32 bg-gray-800 bottom-0 p-12">
+        <p class="text-white font-black pl-24 text-lg">Copyright © 2023. All rights are reserved</p>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
